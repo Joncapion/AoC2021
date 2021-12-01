@@ -1,4 +1,4 @@
-import math
+
 def read_file():
     with open('data/dec1_1.txt') as f:
         lines = list(map(int, f.read().splitlines()))
